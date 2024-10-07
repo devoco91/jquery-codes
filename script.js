@@ -77,3 +77,13 @@ $("#btn").click(function () {
 
 
 
+
+$("#b1").click(function () { 
+    $("#box").animate({ 
+        width: "300px" 
+    }); 
+    $("#box").animate({ 
+        height: "300px" 
+    }); 
+}); 
+
